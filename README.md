@@ -1,5 +1,9 @@
 # esp-idf-lib/example
 
+[![Build examples](https://github.com/esp-idf-lib/example/actions/workflows//build.yml/badge.svg)](https://github.com/esp-idf-lib/example/actions/workflows//build.yml)
+[![Build docs](https://github.com/esp-idf-lib/example/actions/workflows//build-docs.yml/badge.svg)](https://github.com/esp-idf-lib/example/actions/workflows//build-docs.yml)
+[![Validation](https://github.com/esp-idf-lib/example/actions/workflows//validate-component.yml/badge.svg)](https://github.com/esp-idf-lib/example/actions/workflows//validate-component.yml)
+
 An example component.
 
 * [Documentation](https://esp-idf-lib.github.io/example/)
@@ -11,7 +15,7 @@ An example component.
 ## Installation
 
 ```sh
-idf.py add-dependency esp-idf-lib/example^0.0.1
+idf.py add-dependency esp-idf-lib/example
 ```
 
 ## Support
