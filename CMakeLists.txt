@@ -1,7 +1,7 @@
 if(${IDF_TARGET} STREQUAL esp8266)
     set(req esp8266 log)
 else()
-    set(req driver log)
+    set(req log)
 endif()
 
 idf_component_register(
